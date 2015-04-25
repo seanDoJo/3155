@@ -1,0 +1,39 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(B:\PLAssignments\lab1\grader\Lab1Grader.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(B:\PLAssignments\lab1\grader\Lab1Grader.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(B:\PLAssignments\lab1\grader\Lab1Grader.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to B:\PLAssignments\lab1\grader\target\scala-2.10\classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 74dc9f5d, interfacing (CompilerInterface) with Scala compiler version 2.10.3[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	c:\Program Files\Java\jdk1.7.0_71\jre\lib\resources.jar;c:\Program Files\Java\jdk1.7.0_71\jre\lib\rt.jar;c:\Program Files\Java\jdk1.7.0_71\jre\lib\sunrsasign.jar;c:\Program Files\Java\jdk1.7.0_71\jre\lib\jsse.jar;c:\Program Files\Java\jdk1.7.0_71\jre\lib\jce.jar;c:\Program Files\Java\jdk1.7.0_71\jre\lib\charsets.jar;c:\Program Files\Java\jdk1.7.0_71\jre\lib\jfr.jar;c:\Program Files\Java\jdk1.7.0_71\jre\classes;C:\Users\sean.donohoe\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.3.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	B:\PLAssignments\lab1\grader\target\scala-2.10\classes;B:\PLAssignments\lab1\target\scala-2.10\classes;B:\PLAssignments\lab1\lib\liblab1.jar;B:\PLAssignments\lab1\lib\scalatest_2.10-2.0.jar;C:\Users\sean.donohoe\.ivy2\cache\org.scalatest\scalatest_2.10\jars\scalatest_2.10-2.0.jar;C:\Users\sean.donohoe\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.10.0.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 2.503223221 s[0m
+[0m[[0mdebug[0m] [0mInvalidating B:\PLAssignments\lab1\grader\Lab1Grader.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from B:\PLAssignments\lab1\grader\Lab1Grader.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(B:\PLAssignments\lab1\grader\Lab1Grader.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(B:\PLAssignments\lab1\grader\Lab1Grader.scala)[0m
+[0m[[0mdebug[0m] [0mThe B:\PLAssignments\lab1\grader\Lab1Grader.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, Lab1Grader, synchronized, $isInstanceOf, main, notifyAll, isInstanceOf, ==, clone, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

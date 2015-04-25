@@ -1,0 +1,75 @@
+[0m[[0minfo[0m] [0mRunning Lab4 testjsy/test1.jsy[0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Kyle\Dropbox\PrinciplesProgramming\lab4\lab4\target\scala-2.10\classes[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Kyle\Dropbox\PrinciplesProgramming\lab4\lab4\lib\liblab4.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Kyle\Dropbox\PrinciplesProgramming\lab4\lab4\lib\scalatest_2.10-2.0.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Kyle\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.3.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[31merror[0m] [0m(run-main-0) StaticTypeError[0m
+[0m[[31merror[0m] [0mtest1.jsy:4:65: invalid type Undefined for sub-expression Call(Var(s),List(Binary(Minus,Var(y),N(1.0)))) in If(Binary(Eq,Var(y),N(0.0)),Print(Var(x)),Call(Var(s),List(Binary(Minus,Var(y),N(1.0)))))[0m
+[0m[[31merror[0m] [0mconst g = function s(y:number):number{y === 0 ? jsy.print(x) : s(y-1); return y}[0m
+[0m[[31merror[0m] [0m                                                                ^[0m
+StaticTypeError
+test1.jsy:4:65: invalid type Undefined for sub-expression Call(Var(s),List(Binary(Minus,Var(y),N(1.0)))) in If(Binary(Eq,Var(y),N(0.0)),Print(Var(x)),Call(Var(s),List(Binary(Minus,Var(y),N(1.0)))))
+const g = function s(y:number):number{y === 0 ? jsy.print(x) : s(y-1); return y}
+                                                                ^
+	at Lab4$.Lab4$$err$1(Lab4.scala:131)
+	at Lab4$.typeInfer(Lab4.scala:203)
+	at Lab4$.Lab4$$typ$1(Lab4.scala:130)
+	at Lab4$.typeInfer(Lab4.scala:198)
+	at Lab4$.typeInfer(Lab4.scala:229)
+	at Lab4$.Lab4$$typ$1(Lab4.scala:130)
+	at Lab4$.typeInfer(Lab4.scala:140)
+	at Lab4$.inferType(Lab4.scala:386)
+	at Lab4$$anonfun$processFile$1.apply$mcV$sp(Lab4.scala:430)
+	at Lab4$$anonfun$processFile$1.apply(Lab4.scala:429)
+	at Lab4$$anonfun$processFile$1.apply(Lab4.scala:429)
+	at jsy.util.JsyApplication.handle(JsyApplication.scala:21)
+	at Lab4$.processFile(Lab4.scala:429)
+	at jsy.util.JsyApplication.jsy$util$JsyApplication$$doFile$1(JsyApplication.scala:39)
+	at jsy.util.JsyApplication.main(JsyApplication.scala:50)
+	at Lab4.main(Lab4.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sbt.Run.invokeMain(Run.scala:67)
+	at sbt.Run.run0(Run.scala:61)
+	at sbt.Run.sbt$Run$$execute$1(Run.scala:51)
+	at sbt.Run$$anonfun$run$1.apply$mcV$sp(Run.scala:55)
+	at sbt.Run$$anonfun$run$1.apply(Run.scala:55)
+	at sbt.Run$$anonfun$run$1.apply(Run.scala:55)
+	at sbt.Logger$$anon$4.apply(Logger.scala:85)
+	at sbt.TrapExit$App.run(TrapExit.scala:248)
+	at java.lang.Thread.run(Unknown Source)
+[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+java.lang.RuntimeException: Nonzero exit code: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1874)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1874)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1874)
+	at sbt.Defaults$.toError(Defaults.scala:35)
+	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$36$$anonfun$apply$37.apply(Defaults.scala:707)
+	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$36$$anonfun$apply$37.apply(Defaults.scala:705)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[0m[[31merror[0m] [0m(lab4/compile:[31mrun[0m) Nonzero exit code: 1[0m

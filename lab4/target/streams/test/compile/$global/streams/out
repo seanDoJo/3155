@@ -1,0 +1,48 @@
+[0m[[0mdebug[0m] [0mInvalidating C:\Users\Kyle\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.3.jar: class scala.collection.immutable.List$ now provided by C:\Users\sean.donohoe\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.3.jar[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\Users\Kyle\Dropbox\PrinciplesProgramming\lab4\lab4\lib\scalatest_2.10-2.0.jar: class org.scalatest.FlatSpec now provided by B:\PLAssignments\lab4\lib\scalatest_2.10-2.0.jar[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set(C:\Users\Kyle\Dropbox\PrinciplesProgramming\lab4\lab4\src\test\scala\Lab4Spec.scala)[0m
+[0m[[0mdebug[0m] [0m	added: Set(B:\PLAssignments\lab4\src\test\scala\Lab4Spec.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set(C:\Users\Kyle\Dropbox\PrinciplesProgramming\lab4\lab4\target\scala-2.10\test-classes\Lab4Spec$$anonfun$3.class, C:\Users\Kyle\Dropbox\PrinciplesProgramming\lab4\lab4\target\scala-2.10\test-classes\Lab4Spec$$anonfun$2$$anonfun$apply$mcV$sp$1.class, C:\Users\Kyle\Dropbox\PrinciplesProgramming\lab4\lab4\target\scala-2.10\test-classes\Lab4Spec$$anonfun$4.class, C:\Users\Kyle\Dropbox\PrinciplesProgramming\lab4\lab4\target\scala-2.10\test-classes\Lab4Spec.class, C:\Users\Kyle\Dropbox\PrinciplesProgramming\lab4\lab4\target\scala-2.10\test-classes\Lab4Spec$$anonfun$2.class, C:\Users\Kyle\Dropbox\PrinciplesProgramming\lab4\lab4\target\scala-2.10\test-classes\Lab4Spec$$anonfun$1.class)[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set(C:\Users\Kyle\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.3.jar, C:\Users\Kyle\Dropbox\PrinciplesProgramming\lab4\lab4\lib\scalatest_2.10-2.0.jar)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(C:\Users\Kyle\Dropbox\PrinciplesProgramming\lab4\lab4\src\test\scala\Lab4Spec.scala, B:\PLAssignments\lab4\src\test\scala\Lab4Spec.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set(C:\Users\Kyle\Dropbox\PrinciplesProgramming\lab4\lab4\src\test\scala\Lab4Spec.scala)[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set(C:\Users\Kyle\Dropbox\PrinciplesProgramming\lab4\lab4\src\test\scala\Lab4Spec.scala)[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\Users\Kyle\Dropbox\PrinciplesProgramming\lab4\lab4\src\test\scala\Lab4Spec.scala, B:\PLAssignments\lab4\src\test\scala\Lab4Spec.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to B:\PLAssignments\lab4\target\scala-2.10\test-classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 73e3ee7a, interfacing (CompilerInterface) with Scala compiler version 2.10.3[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	c:\Program Files\Java\jdk1.7.0_71\jre\lib\resources.jar;c:\Program Files\Java\jdk1.7.0_71\jre\lib\rt.jar;c:\Program Files\Java\jdk1.7.0_71\jre\lib\sunrsasign.jar;c:\Program Files\Java\jdk1.7.0_71\jre\lib\jsse.jar;c:\Program Files\Java\jdk1.7.0_71\jre\lib\jce.jar;c:\Program Files\Java\jdk1.7.0_71\jre\lib\charsets.jar;c:\Program Files\Java\jdk1.7.0_71\jre\lib\jfr.jar;c:\Program Files\Java\jdk1.7.0_71\jre\classes;C:\Users\sean.donohoe\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.3.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	B:\PLAssignments\lab4\target\scala-2.10\test-classes;B:\PLAssignments\lab4\target\scala-2.10\classes;B:\PLAssignments\lab4\lib\liblab4.jar;B:\PLAssignments\lab4\lib\scalatest_2.10-2.0.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 1.376100089 s[0m
+[0m[[0mdebug[0m] [0mInvalidating B:\PLAssignments\lab4\src\test\scala\Lab4Spec.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from B:\PLAssignments\lab4\src\test\scala\Lab4Spec.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(B:\PLAssignments\lab4\src\test\scala\Lab4Spec.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(B:\PLAssignments\lab4\src\test\scala\Lab4Spec.scala)[0m
+[0m[[0mdebug[0m] [0mThe B:\PLAssignments\lab4\src\test\scala\Lab4Spec.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	convertToStringMustWrapper, convertToStringCanWrapper, convertToEqualizer, convertToInAndIgnoreMethodsAfterTaggedAs, shorthandSharedTestRegistrationFunction, unconstrainedEquality, convertToInAndIgnoreMethods, convertToStringShouldWrapper, shorthandTestRegistrationFunction.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\Users\Kyle\Dropbox\PrinciplesProgramming\lab4\lab4\src\test\scala\Lab4Spec.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\Users\Kyle\Dropbox\PrinciplesProgramming\lab4\lab4\src\test\scala\Lab4Spec.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\Users\Kyle\Dropbox\PrinciplesProgramming\lab4\lab4\src\test\scala\Lab4Spec.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\Users\Kyle\Dropbox\PrinciplesProgramming\lab4\lab4\src\test\scala\Lab4Spec.scala)[0m
+[0m[[0mdebug[0m] [0mThe C:\Users\Kyle\Dropbox\PrinciplesProgramming\lab4\lab4\src\test\scala\Lab4Spec.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	convertToStringMustWrapper, convertToStringCanWrapper, convertToEqualizer, convertToInAndIgnoreMethodsAfterTaggedAs, shorthandSharedTestRegistrationFunction, unconstrainedEquality, convertToInAndIgnoreMethods, convertToStringShouldWrapper, shorthandTestRegistrationFunction.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

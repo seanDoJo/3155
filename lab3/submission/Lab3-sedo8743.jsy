@@ -1,0 +1,4 @@
+const x = 5;
+const g = function s(y){y === 0 ? jsy.print(x) : s(y-1); return y}
+const h = function(a){const x = a; return g(x)}
+h(2);

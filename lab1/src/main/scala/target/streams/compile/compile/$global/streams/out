@@ -1,0 +1,61 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(B:\PLAssignments\lab1\src\main\scala\Lab1.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(B:\PLAssignments\lab1\src\main\scala\Lab1.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(B:\PLAssignments\lab1\src\main\scala\Lab1.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to B:\PLAssignments\lab1\src\main\scala\target\scala-2.10\classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 5a27b5ec, interfacing (CompilerInterface) with Scala compiler version 2.10.4[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	c:\Program Files\Java\jdk1.7.0_71\jre\lib\resources.jar;c:\Program Files\Java\jdk1.7.0_71\jre\lib\rt.jar;c:\Program Files\Java\jdk1.7.0_71\jre\lib\sunrsasign.jar;c:\Program Files\Java\jdk1.7.0_71\jre\lib\jsse.jar;c:\Program Files\Java\jdk1.7.0_71\jre\lib\jce.jar;c:\Program Files\Java\jdk1.7.0_71\jre\lib\charsets.jar;c:\Program Files\Java\jdk1.7.0_71\jre\lib\jfr.jar;c:\Program Files\Java\jdk1.7.0_71\jre\classes;C:\Users\sean.donohoe\.sbt\boot\scala-2.10.4\lib\scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	B:\PLAssignments\lab1\src\main\scala\target\scala-2.10\classes[0m
+[0m[[31merror[0m] [0mB:\PLAssignments\lab1\src\main\scala\Lab1.scala:1: not found: value jsy[0m
+[0m[[31merror[0m] [0mobject Lab1 extends jsy.util.JsyApplication {[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0mB:\PLAssignments\lab1\src\main\scala\Lab1.scala:2: not found: value jsy[0m
+[0m[[31merror[0m] [0m  import jsy.lab1.ast._[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0mB:\PLAssignments\lab1\src\main\scala\Lab1.scala:3: not found: value jsy[0m
+[0m[[31merror[0m] [0m  import jsy.lab1.Parser[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0mB:\PLAssignments\lab1\src\main\scala\Lab1.scala:78: value *- is not a member of Double[0m
+[0m[[31merror[0m] [0m  def abs(n: Double): Double = if (n >= 0) n else n*-1[0m
+[0m[[31merror[0m] [0m                                                   ^[0m
+[0m[[31merror[0m] [0mB:\PLAssignments\lab1\src\main\scala\Lab1.scala:126: not found: type Expr[0m
+[0m[[31merror[0m] [0m  def eval(e: Expr): Double = e match {[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0mB:\PLAssignments\lab1\src\main\scala\Lab1.scala:127: not found: value N[0m
+[0m[[31merror[0m] [0m    case N(n) => throw new UnsupportedOperationException[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0mB:\PLAssignments\lab1\src\main\scala\Lab1.scala:133: not found: value Parser[0m
+[0m[[31merror[0m] [0m def eval(s: String): Double = eval(Parser.parse(s))[0m
+[0m[[31merror[0m] [0m                                    ^[0m
+[0m[[31merror[0m] [0mB:\PLAssignments\lab1\src\main\scala\Lab1.scala:140: not found: value debug[0m
+[0m[[31merror[0m] [0m    if (debug) { println("Parsing ...") }[0m
+[0m[[31merror[0m] [0m        ^[0m
+[0m[[31merror[0m] [0mB:\PLAssignments\lab1\src\main\scala\Lab1.scala:142: not found: value Parser[0m
+[0m[[31merror[0m] [0m    val expr = Parser.parseFile(file)[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0mB:\PLAssignments\lab1\src\main\scala\Lab1.scala:144: not found: value debug[0m
+[0m[[31merror[0m] [0m    if (debug) {[0m
+[0m[[31merror[0m] [0m        ^[0m
+[0m[[31merror[0m] [0mB:\PLAssignments\lab1\src\main\scala\Lab1.scala:149: not found: value debug[0m
+[0m[[31merror[0m] [0m    if (debug) { println("Evaluating ...") }[0m
+[0m[[31merror[0m] [0m        ^[0m
+[0m[[31merror[0m] [0m11 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m

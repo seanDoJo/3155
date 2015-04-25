@@ -1,0 +1,6 @@
+const x = 5;
+const y = 6;
+const z = 7;
+
+const h = function(a:number, b:number, c:number){const w = b + a + c; return w}
+h(x, y, z);
